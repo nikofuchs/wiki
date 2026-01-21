@@ -1,0 +1,21 @@
+{
+    "rewrites": [
+        {
+            "source": "/:path*",
+            "destination": "/:path*.html"
+        }
+    ],
+    "redirects": [
+        {
+            "source": "/ru/vps/3x-ui",
+            "destination": "/ru/vpn/3x-ui",
+            "permanent": true
+        },
+        {
+            "source": "/vps/3x-ui",
+            "destination": "/vpn/3x-ui",
+            "permanent": true
+        }
+    ],
+    "cleanUrls": true
+}
