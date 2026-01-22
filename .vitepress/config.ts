@@ -261,7 +261,7 @@ export default defineConfig({
         },
         editLink: {
           pattern: 'https://github.com/senko-digital/wiki/edit/master/:path',
-          text: 'Редактировать эту статью на GitHub'
+          text: 'Редактировать статью на GitHub'
         },
         sidebar: {
           '/ru/': [
