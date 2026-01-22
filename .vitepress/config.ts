@@ -3,13 +3,17 @@ import { fileURLToPath } from 'url'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  srcDir: 'src',
   cleanUrls: true,
   title: "Senko Digital Wiki",
   description: "Official wiki of Senko Digital hosting provider - the fluffiest hosting in the world!",
+  rewrites: {
+    'en/:rest*': ':rest*'
+  },
   vite: {
+    publicDir: fileURLToPath(new URL('../public', import.meta.url)),
     resolve: {
       alias: {
-        '/components/': fileURLToPath(new URL('../components/', import.meta.url))
       }
     }
   },
