@@ -55,4 +55,4 @@ onBeforeUnmount(() => {
     box-shadow: 0 0 15px rgba(255, 99, 71, 0.8);
   }
 }
-</style> 
+</style>

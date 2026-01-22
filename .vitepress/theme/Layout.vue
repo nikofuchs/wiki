@@ -39,7 +39,10 @@ onMounted(() => {
       }
     })
 
-    document.documentElement.setAttribute('data-sidebar-collapsed', String(isSidebarCollapsed.value))
+    document.documentElement.setAttribute(
+      'data-sidebar-collapsed',
+      String(isSidebarCollapsed.value)
+    )
   }, 200)
 })
 
@@ -48,11 +51,15 @@ function toggleSidebar(): void {
   document.cookie = `wiki_sidebar_collapsed=${isSidebarCollapsed.value}; expires=Mon, 1 Jan 2030 00:00:00 UTC; path=/`
 }
 
-watch(() => isSidebarCollapsed.value, (isCollapsed) => {
-  if (typeof document !== 'undefined') {
-    document.documentElement.setAttribute('data-sidebar-collapsed', String(isCollapsed))
-  }
-}, { immediate: true })
+watch(
+  () => isSidebarCollapsed.value,
+  isCollapsed => {
+    if (typeof document !== 'undefined') {
+      document.documentElement.setAttribute('data-sidebar-collapsed', String(isCollapsed))
+    }
+  },
+  { immediate: true }
+)
 
 function goBack(): void {
   history.back()
@@ -68,9 +75,12 @@ function reloadPage(): void {
     <template #layout-top>
       <ProgressBar />
       <div class="sidebar-toggle" v-if="screenWidth < 960">
-        <button @click="toggleSidebar" :title="isSidebarCollapsed ? 'Show sidebar' : 'Hide sidebar'"
-          class="sidebar-toggle-button">
-          <span class="toggle-icon" :class="{ 'collapsed': !isSidebarCollapsed }">
+        <button
+          @click="toggleSidebar"
+          :title="isSidebarCollapsed ? 'Show sidebar' : 'Hide sidebar'"
+          class="sidebar-toggle-button"
+        >
+          <span class="toggle-icon" :class="{ collapsed: !isSidebarCollapsed }">
             <span class="toggle-bar bar1"></span>
             <span class="toggle-bar bar2"></span>
             <span class="toggle-bar bar3"></span>
@@ -96,7 +106,7 @@ function reloadPage(): void {
           <button @click="goBack" class="not-found-link secondary">Go Back</button>
         </div>
         <p class="not-found-hint">
-          If you're experiencing persistent 404 errors, try clearing your browser cache or 
+          If you're experiencing persistent 404 errors, try clearing your browser cache or
           <a href="javascript:void(0)" @click="reloadPage">refreshing the page</a>.
         </p>
       </div>
@@ -290,7 +300,7 @@ function reloadPage(): void {
   height: 14px;
   position: relative;
   transform: rotate(0deg);
-  transition: .5s cubic-bezier(0.34, 1.56, 0.64, 1);
+  transition: 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
 .toggle-bar {
@@ -303,7 +313,7 @@ function reloadPage(): void {
   opacity: 1;
   left: 0;
   transform: rotate(0deg);
-  transition: .25s cubic-bezier(0.34, 1.56, 0.64, 1);
+  transition: 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
 .toggle-bar.bar1 {
@@ -332,40 +342,43 @@ function reloadPage(): void {
 }
 
 @media (max-width: 960px) {
-
-  html[data-sidebar-collapsed="true"] .VPSidebar {
+  html[data-sidebar-collapsed='true'] .VPSidebar {
     transform: translateX(-100%) scale(0.9) !important;
     opacity: 0 !important;
     visibility: hidden !important;
-    transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1),
+    transition:
+      transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1),
       opacity 0.3s ease,
       visibility 0.3s ease !important;
     transform-origin: left center;
   }
 
-  html:not([data-sidebar-collapsed="true"]) .VPSidebar {
+  html:not([data-sidebar-collapsed='true']) .VPSidebar {
     transform: translateX(0) scale(1) !important;
     opacity: 1 !important;
     visibility: visible !important;
-    transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1),
+    transition:
+      transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1),
       opacity 0.4s ease,
       visibility 0s !important;
     transform-origin: left center;
   }
 
-  html[data-sidebar-collapsed="true"] .VPContent.has-sidebar {
+  html[data-sidebar-collapsed='true'] .VPContent.has-sidebar {
     margin-left: 0 !important;
     padding-left: 24px !important;
-    transition: margin-left 0.4s cubic-bezier(0.34, 1.56, 0.64, 1),
+    transition:
+      margin-left 0.4s cubic-bezier(0.34, 1.56, 0.64, 1),
       padding-left 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) !important;
   }
 
-  html:not([data-sidebar-collapsed="true"]) .VPContent.has-sidebar {
-    transition: margin-left 0.4s cubic-bezier(0.34, 1.56, 0.64, 1),
+  html:not([data-sidebar-collapsed='true']) .VPContent.has-sidebar {
+    transition:
+      margin-left 0.4s cubic-bezier(0.34, 1.56, 0.64, 1),
       padding-left 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) !important;
   }
 
-  html:not([data-sidebar-collapsed="true"]) .VPSidebar {
+  html:not([data-sidebar-collapsed='true']) .VPSidebar {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1) !important;
   }
 
@@ -374,7 +387,8 @@ function reloadPage(): void {
   }
 
   .VPContent.has-sidebar {
-    transition: margin-left 0.4s cubic-bezier(0.34, 1.56, 0.64, 1),
+    transition:
+      margin-left 0.4s cubic-bezier(0.34, 1.56, 0.64, 1),
       padding-left 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) !important;
   }
 

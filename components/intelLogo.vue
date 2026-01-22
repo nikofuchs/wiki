@@ -5,30 +5,30 @@
 -->
 
 <template>
-    <div class="logoHeader">
-        <img src="/images/logos/intel.png" alt="intel logo" class="IntelLogo" />
-        <slot></slot>
-    </div>
+  <div class="logoHeader">
+    <img src="/images/logos/intel.png" alt="intel logo" class="IntelLogo" />
+    <slot></slot>
+  </div>
 </template>
-  
+
 <script>
 export default {
-    name: 'IntelLogo',
-    props: {},
-};
+  name: 'IntelLogo',
+  props: {},
+}
 </script>
-  
+
 <style scoped>
 .logoHeader {
-    display: flex;
-    align-items: center;
-    gap: 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .IntelLogo {
-    display: inline-block;
-    vertical-align: middle;
-    width: 64px;
-    height: 32px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 64px;
+  height: 32px;
 }
 </style>

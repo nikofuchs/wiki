@@ -1,17 +1,18 @@
 .medium-zoom-overlay {
-    z-index: 30;
-  }
-  
-  .medium-zoom-image {
-    z-index: 30;
-  }
+  z-index: 30;
+}
+
+.medium-zoom-image {
+  z-index: 30;
+}
 
 /* Add custom global styles for the theme here */
 :root {
   --animation-duration: 0.5s;
 }
 
-html, body {
+html,
+body {
   transition: background-color 0.3s ease;
 }
 
@@ -66,13 +67,14 @@ Fixes for default VitePress styles
 }
 
 @media (min-width: 768px) {
-  button.menu { /* Disable default sidebar button on mobile */
+  button.menu {
+    /* Disable default sidebar button on mobile */
     display: none !important;
   }
 }
 
 @media (max-width: 960px) {
-  html[data-sidebar-collapsed="true"] .VPContent.has-sidebar {
+  html[data-sidebar-collapsed='true'] .VPContent.has-sidebar {
     padding-left: 0 !important;
   }
 }

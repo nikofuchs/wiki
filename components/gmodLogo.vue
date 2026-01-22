@@ -5,30 +5,30 @@
 -->
 
 <template>
-    <div class="logoHeader">
-        <img src="/images/games/gmod/gmod.svg" alt="garry's mod logo" class="GmodLogo" />
-        <slot></slot>
-    </div>
+  <div class="logoHeader">
+    <img src="/images/games/gmod/gmod.svg" alt="garry's mod logo" class="GmodLogo" />
+    <slot></slot>
+  </div>
 </template>
-  
+
 <script>
 export default {
-    name: 'GmodLogo',
-    props: {},
-};
+  name: 'GmodLogo',
+  props: {},
+}
 </script>
-  
+
 <style scoped>
 .logoHeader {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .GmodLogo {
-    display: inline-block;
-    vertical-align: middle;
-    width: 32px;
-    height: 32px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 32px;
+  height: 32px;
 }
 </style>

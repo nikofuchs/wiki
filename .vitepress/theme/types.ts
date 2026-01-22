@@ -16,4 +16,4 @@ export interface AllFeedbackItem {
   isHelpful: boolean
   timestamp: string
   url: string
-} 
+}

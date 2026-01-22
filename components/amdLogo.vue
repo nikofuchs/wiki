@@ -5,30 +5,30 @@
 -->
 
 <template>
-    <div class="logoHeader">
-        <img src="/images/logos/amd.png" alt="AMD logo" class="AMDLogo" />
-        <slot></slot>
-    </div>
+  <div class="logoHeader">
+    <img src="/images/logos/amd.png" alt="AMD logo" class="AMDLogo" />
+    <slot></slot>
+  </div>
 </template>
-  
+
 <script>
 export default {
-    name: 'AMDLogo',
-    props: {},
-};
+  name: 'AMDLogo',
+  props: {},
+}
 </script>
-  
+
 <style scoped>
 .logoHeader {
-    display: flex;
-    align-items: center;
-    gap: 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .AMDLogo {
-    display: inline-block;
-    vertical-align: middle;
-    width: 64px;
-    height: 32px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 64px;
+  height: 32px;
 }
 </style>

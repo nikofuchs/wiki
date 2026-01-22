@@ -2,7 +2,7 @@ declare module 'vitepress/theme' {
   import { DefineComponent } from 'vue'
   const Layout: DefineComponent<{}, {}, any>
   export default {
-    Layout: Layout
+    Layout: Layout,
   }
 }
 
@@ -15,12 +15,12 @@ declare module 'vue' {
 
 declare module 'vitepress' {
   export function useData(): {
-    page: { value: { relativePath?: string, filePath?: string } },
-    frontmatter: { value: any },
-    theme: { value: any },
-    site: { value: any },
-    isDark: { value: boolean },
-    lang: { value: string },
+    page: { value: { relativePath?: string; filePath?: string } }
+    frontmatter: { value: any }
+    theme: { value: any }
+    site: { value: any }
+    isDark: { value: boolean }
+    lang: { value: string }
     localeIndex: { value: string }
   }
   export function useRoute(): { path: string }
@@ -30,4 +30,4 @@ declare module '*.vue' {
   import { DefineComponent } from 'vue'
   const component: DefineComponent<{}, {}, any>
   export default component
-} 
+}
