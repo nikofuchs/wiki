@@ -1,0 +1,15 @@
+# Markdown files
+*.md
+
+# Dependencies
+node_modules/
+pnpm-lock.yaml
+
+# Build outputs
+dist/
+.vitepress/dist/
+.vitepress/cache/
+
+# Logs
+*.log
+
