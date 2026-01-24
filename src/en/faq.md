@@ -65,11 +65,13 @@ If this is your first time ordering a game server and/or you do not yet have a g
 
 ## 📊 Can I change my plan after purchase?
 
-Yes, you can always upgrade your server plan to a more powerful one within the same line of plans. Plan changes are applied within a couple of minutes and do not require server reinstallation.
+Yes, you can always upgrade your server plan to a more powerful one within the same plan lineup. Plan changes are applied within a couple of minutes and do not require server reinstallation. 
+
+If you need to migrate your server to a different location, please contact support and request the transfer, specifying both the desired location and the new plan name. Make sure the new plan provides at least as much disk space as your current server.
 
 ## ❓ How long will my data be stored if my service gets suspended?
 
-If your service is suspended (for example, due to non-payment), your data will be stored for up to 3 days. After this period, the server and all associated data will be automatically deleted from our systems.
+If your service is suspended due to non-payment, your server's data will be stored for up to 7 days. After this period, the server and all associated data will be automatically deleted from our systems.
 
 ## 🔧 What operating systems do you support?
 
@@ -77,8 +79,8 @@ We support a wide range of operating systems including:
 
 Linux distributions:
 - Debian (11 Bullseye, 12 Bookworm, 13 Trixie)
-- Ubuntu (20.04 Focal, 22.04 Jammy, 24.04 Noble)
-- AlmaLinux (8, 9)
+- Ubuntu (22.04 Jammy, 24.04 Noble)
+- AlmaLinux (8, 9, 10)
 - CentOS (8 Stream, 9 Stream)
 - Oracle Linux (8, 9)
 
