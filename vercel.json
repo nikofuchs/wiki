@@ -15,6 +15,16 @@
       "source": "/vps/3x-ui",
       "destination": "/vpn/3x-ui",
       "permanent": true
+    },
+    {
+      "source": "/vps/promo-limitations",
+      "destination": "/vps/budget-lineup-limitations",
+      "permanent": true
+    },
+    {
+      "source": "/ru/vps/promo-limitations",
+      "destination": "/ru/vps/budget-lineup-limitations",
+      "permanent": true
     }
   ],
   "cleanUrls": true

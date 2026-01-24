@@ -33,13 +33,13 @@ You can install MikroTik CHR on any of our virtual server plans, including the e
 - 1 GB RAM
 - 10 GB NVMe storage
 
-This guide demonstrates the manual installation process using a i9-PROMO-1 virtual server.
+This guide demonstrates the manual installation process using a DE-BUDGET-1 virtual server.
 
 ## Prerequisites
 
 1. Order a virtual server through your control panel or use an existing server
 2. For this example, we'll use:
-   - Plan: i9-PROMO-1
+   - Plan: DE-BUDGET-1
    - Base OS: Ubuntu 24.04 (required for CHR deployment)
 
 ## Installation Steps
@@ -129,7 +129,7 @@ Now we need to access the VM control panel to connect to our server via VNC.
 
 Where:
 - `<IPv4>` is your server's IP address
-- `<Gateway>` is typically `172.16.0.1` (for RZ9, EP lineups) or `10.0.0.1` (for the i9-PROMO lineup)
+- `<Gateway>` is typically `172.16.0.1` (for RZ9, EP lineups) or `10.0.0.1` (for the DE-BUDGET lineup)
 
 You can verify your server's internet connectivity by running:
 ```bash

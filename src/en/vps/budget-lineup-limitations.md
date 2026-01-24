@@ -1,6 +1,6 @@
-# PROMO lineup limitations overview
+# BUDGET lineup limitations overview
 
-The PROMO lineup is designed as a budget-friendly option for non-critical workloads, testing environments, educational use, and personal projects.  
+The BUDGET lineup is designed as a budget-friendly option for non-critical workloads, such as personal VPN, testing environments, educational use, and personal projects.  
 To keep pricing at this level, several limitations apply.
 
 ---
@@ -19,11 +19,11 @@ To keep pricing at this level, several limitations apply.
 
 ## Performance limitations
 - Shared NVMe storage is used, with various IOPS caps depending on the plan used:  
- DE-PROMO-1 - **8k IOPS** per VPS  
- DE-PROMO-2 - **16k IOPS** per VPS  
- DE-PROMO-3 - **24k IOPS** per VPS  
- DE-PROMO-4 - **32k IOPS** per VPS  
-- Fair-share CPU model with guaranteed usage of **up to 25%** of the assigned vCPU.
+ DE-BUDGET-1 - **8k IOPS** per VPS  
+ DE-BUDGET-2 - **16k IOPS** per VPS  
+ DE-BUDGET-3 - **24k IOPS** per VPS  
+ DE-BUDGET-4 - **32k IOPS** per VPS  
+- Fair-share CPU model with guaranteed usage of **up to 10%** of the assigned vCPU, burstable up to 50% of the full vCPU share.
 - Sustained 100% network load may trigger traffic shaping under the **[Fair Use Policy](https://senko.digital/acceptable-use-policy)**.
 
 ## Network limitations

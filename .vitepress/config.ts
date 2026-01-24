@@ -478,7 +478,12 @@ export default defineConfig({
   },
   sitemap: {
     hostname: 'https://wiki.senko.digital',
-    exclude: ['/vps/promo-limitations', '/ru/vps/promo-limitations'],
+    exclude: [
+      '/vps/budget-limitations',
+      '/ru/vps/budget-limitations',
+      '/vps/promo-limitations',
+      '/ru/vps/promo-limitations',
+    ],
   },
   lastUpdated: true,
   markdown: {
