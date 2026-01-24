@@ -61,6 +61,8 @@ Login requires:
 - The email address used for your personal account registration
 - Your game panel password (either set during initial server order or your existing game panel password)
 
+If this is your first time ordering a game server and/or you do not yet have a game panel account, you will not be able to access the panel until your service is activated.
+
 ## 📊 Can I change my plan after purchase?
 
 Yes, you can always upgrade your server plan to a more powerful one within the same line of plans. Plan changes are applied within a couple of minutes and do not require server reinstallation.
