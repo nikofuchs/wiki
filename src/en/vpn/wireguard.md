@@ -110,7 +110,7 @@ wg genkey | tee /etc/wireguard/client/privatekey | wg pubkey > /etc/wireguard/cl
 Identify your default network interface and choose addressing parameters:
 
 - **Network interface**: Find it with `ip route get 1.1.1.1 | awk '{print $5; exit}'` or inspect `ip route` (commonly `eth0` or `ens3`)
-- **Server public IP**: Confirm via `curl -4 ifconfig.io` or in the personal area
+- **Server public IP**: Confirm via `curl -4 ifconfig.io` or in the Client Area
 - **VPN subnet**: Choose a private subnet that does not conflict with your existing networks, e.g., `10.8.0.0/24` (use `10.9.0.0/24` or another RFC1918 range if `10.8.0.0/24` conflicts)
 - **Server VPN address**: Use the first usable IP in the chosen subnet, e.g., `10.8.0.1/24`
 - **Client VPN address**: Assign a unique IP per client, e.g., `10.8.0.2/24`

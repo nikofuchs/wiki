@@ -9,7 +9,7 @@ Our goal is to make self-service easier and share insights with the broader comm
 
 ## ✨ What you'll find here
 
-- Guides on using our services (VPS, personal area, control panels, etc.)
+- Guides on using our services (VPS, client area, control panels, etc.)
 - Internal notes made public when useful
 - Recommendations and troubleshooting steps
 - Game server setup articles
@@ -42,7 +42,7 @@ If you're unsure whether something is covered or allowed — [contact us](https:
 **Senko Digital** is a premium hosting provider offering virtual servers, game server hosting, dedicated servers and much more - all tailored for individual developers and small teams.  
 Our global presence allows us to serve clients worldwide - even if you don't have a credit card or a phone number.
 
-🌐 [Website](https://senko.digital/) • [Personal Area](https://my.senko.digital/billmgr)  
+🌐 [Website](https://senko.digital/) • [Client Area](https://my.senko.digital/billmgr)  
 💬 [Telegram](https://t.me/senkodigital) • [Discord](https://senko.digital/discord) • [Status Page](https://senkostatus.com/)
 
 ---

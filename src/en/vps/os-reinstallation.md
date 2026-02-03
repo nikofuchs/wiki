@@ -25,7 +25,7 @@ Before reinstalling the OS, don't forget to save all important data from the ser
 
 ## Accessing the Panel
 
-To access the VM control panel, you can [log in to your personal area account](https://my.senko.digital/billmgr), go into the "Virtual Servers" tab, select any of the servers, and finally, click the "To panel" button:
+To access the VM control panel, you can [log in to your Client Area account](https://my.senko.digital/billmgr), go into the "Virtual Servers" tab, select any of the servers, and finally, click the "To panel" button:
 
 <video width="1440" autoplay controls loop muted>
   <source src="/videos/vps/go-to-vm-panel.mp4" type="video/mp4" />
