@@ -164,13 +164,13 @@ export default defineConfig({
             {
               text: '💻 Client Area',
               items: [
-                { text: '👤 How to register', link: '/personal-area/register' },
-                { text: '💲 How to order a server', link: '/personal-area/vps-order' },
-                { text: '❓ How to leave a support ticket', link: '/personal-area/new-ticket' },
-                { text: '🫂 Referral Program', link: '/personal-area/referral' },
+                { text: '👤 How to register', link: '/client-area/register' },
+                { text: '💲 How to order a server', link: '/client-area/vps-order' },
+                { text: '❓ How to leave a support ticket', link: '/client-area/new-ticket' },
+                { text: '🫂 Referral Program', link: '/client-area/referral' },
                 {
                   text: '🔒 Two-Factor Authentication',
-                  link: '/personal-area/two-factor-authentication',
+                  link: '/client-area/two-factor-authentication',
                 },
               ],
               collapsed: false,
@@ -345,16 +345,16 @@ export default defineConfig({
             {
               text: '💻 Личный кабинет',
               items: [
-                { text: '👤 Как зарегистрироваться', link: '/ru/personal-area/register' },
-                { text: '💲 Как заказать сервер', link: '/ru/personal-area/vps-order' },
+                { text: '👤 Как зарегистрироваться', link: '/ru/client-area/register' },
+                { text: '💲 Как заказать сервер', link: '/ru/client-area/vps-order' },
                 {
                   text: '❓ Как создать обращение в поддержку',
-                  link: '/ru/personal-area/new-ticket',
+                  link: '/ru/client-area/new-ticket',
                 },
-                { text: '🫂 Реферальная программа', link: '/ru/personal-area/referral' },
+                { text: '🫂 Реферальная программа', link: '/ru/client-area/referral' },
                 {
                   text: '🔒 Двухфакторная аутентификация',
-                  link: '/ru/personal-area/two-factor-authentication',
+                  link: '/ru/client-area/two-factor-authentication',
                 },
               ],
               collapsed: false,

@@ -18,7 +18,7 @@ head:
 ## 🚀 Getting Started
 
 ### 🛒 How do I order a VPS server?
-Detailed instructions for ordering a VPS server are [available in this article](/personal-area/vps-order).
+Detailed instructions for ordering a VPS server are [available in this article](/client-area/vps-order).
 
 ### 🕒 How long does server setup take?
 Virtual servers are set up automatically within 120 seconds after payment. In rare cases, e.g. if you have selected Windows as your OS, server installation may take up to 10 minutes, or when a plan is in very high demand, the setup process may take up to 24 hours.

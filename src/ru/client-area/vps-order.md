@@ -25,13 +25,13 @@ head:
 
 Перейдите на страницу [тарифов](https://senko.digital/virtual-servers) и выберите подходящий для вас тариф.
 
-![Выбор тарифа VPS](/images/personal-area/ordering/1.png){data-zoomable}
+![Выбор тарифа VPS](/images/client-area/ordering/1.png){data-zoomable}
 
 ### Авторизация
 
 После выбора тарифа вам будет предложено войти в существующий аккаунт или зарегистрировать новый.
 
-![Страница авторизации](/images/personal-area/ordering/2.png){data-zoomable}
+![Страница авторизации](/images/client-area/ordering/2.png){data-zoomable}
 
 - **Если у вас уже есть аккаунт**: Войдите, используя ваш email и пароль
 - **Если у вас нет аккаунта**: Пройдите быструю регистрацию
@@ -41,16 +41,16 @@ head:
 
 После авторизации заполните форму заказа, указав необходимые параметры, такие как операционная система и PTR запись (необязательно).
 
-![Форма заказа сервера](/images/personal-area/ordering/3.png){data-zoomable}
+![Форма заказа сервера](/images/client-area/ordering/3.png){data-zoomable}
 
 ### Оплата
 
 Выберите удобный способ оплаты, оплатите и завершите заказ.
 
-![Выбор способа оплаты](/images/personal-area/ordering/4.png){data-zoomable}
+![Выбор способа оплаты](/images/client-area/ordering/4.png){data-zoomable}
 
 После успешной оплаты ваш виртуальный сервер будет установлен в течение 120 секунд.
 
 Доступ к панели управления и данные для входа на сервер будут отправлены на указанный вами email.
 
-![Письмо](/images/personal-area/ordering/5.png){data-zoomable}
+![Письмо](/images/client-area/ordering/5.png){data-zoomable}

@@ -25,6 +25,21 @@
       "source": "/ru/vps/promo-limitations",
       "destination": "/ru/vps/budget-lineup-limitations",
       "permanent": true
+    },
+    {
+      "source": "/en/personal-area/:path*",
+      "destination": "/en/client-area/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/ru/personal-area/:path*",
+      "destination": "/ru/client-area/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/personal-area/:path*",
+      "destination": "/client-area/:path*",
+      "permanent": true
     }
   ],
   "cleanUrls": true

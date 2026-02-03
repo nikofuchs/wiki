@@ -36,17 +36,17 @@ Two-factor authentication consists of two consecutive steps:
 1. First, go to your [personal account](https://my.senko.digital/billmgr)
 2. In the top right corner, find your login, click on it and select "Settings" from the dropdown menu
    
-    ![Navigate to settings through the menu in the top right corner of personal account](/images/personal-area/2fa/en/settings-menu.png){data-zoomable}
+    ![Navigate to settings through the menu in the top right corner of personal account](/images/client-area/2fa/en/settings-menu.png){data-zoomable}
 3. In the settings, find the "Two-factor authentication" section and click the "Enable two-factor authentication" button
    
-    ![Activating two-factor authentication](/images/personal-area/2fa/en/enable-2fa.png){data-zoomable}
+    ![Activating two-factor authentication](/images/client-area/2fa/en/enable-2fa.png){data-zoomable}
 4. The system will show you a page with important information:
    - QR code for quick setup
    - Your account name
    - Secret key (for manual setup)
    - Verification code input field
    
-    ![QR code and two-factor authentication settings](/images/personal-area/2fa/en/2fa-settings.png){data-zoomable}
+    ![QR code and two-factor authentication settings](/images/client-area/2fa/en/2fa-settings.png){data-zoomable}
 
    For your security, make sure to save the recovery key - click the "download" button under "Save key"
 5. Now open your authenticator app, add your account to it (instructions for different apps are provided below), then enter the six-digit code you received in the "Temporary password" field on the website and confirm by clicking "Ok"
