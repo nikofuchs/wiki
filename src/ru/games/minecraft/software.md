@@ -27,11 +27,11 @@ head:
 
 Перейдите на сайт [PaperMC](https://papermc.io/), нажмите на кнопку "Downloads", после этого нажмите на "Paper" и "Paper 1.21.1" (вместо 1.21.1 может быть любая другая, более новая версия)
 
-![papermc website main page](/images/games/minecraft/core/papermc-main.png){data-zoomable}
+![papermc website main page](/images/games/minecraft/software/papermc-main.png){data-zoomable}
 
-![papermc website downloads page](/images/games/minecraft/core/papermc-downloads.png){data-zoomable}
+![papermc website downloads page](/images/games/minecraft/software/papermc-downloads.png){data-zoomable}
 
-![papermc website download page](/images/games/minecraft/core/papermc-download.png){data-zoomable}
+![papermc website download page](/images/games/minecraft/software/papermc-download.png){data-zoomable}
 
 ## Загрузка ядра на сервер
 
@@ -46,4 +46,4 @@ head:
 
 После установки ядра, нужно запустить сервер дабы удостовериться в его работоспобосности.
 
-![screenshot of the game panel](/images/games/minecraft/core/working-server.png){data-zoomable}
+![screenshot of the game panel](/images/games/minecraft/software/working-server.png){data-zoomable}

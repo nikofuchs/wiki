@@ -8,6 +8,6 @@
 
 #### <MinecraftLogo>[Configuring server.properties](/games/minecraft/server-properties)</MinecraftLogo>
 
-#### <MinecraftLogo>[Installing a Custom Core](/games/minecraft/core)</MinecraftLogo>
+#### <MinecraftLogo>[Installing Custom Server Software](/games/minecraft/software)</MinecraftLogo>
 
 #### <MinecraftLogo>[Installing Plugins](/games/minecraft/plugins)</MinecraftLogo>

@@ -8,6 +8,6 @@
 
 #### <MinecraftLogo>[Настройка server.properties](/ru/games/minecraft/server-properties)</MinecraftLogo>
 
-#### <MinecraftLogo>[Установка кастомного ядра](/ru/games/minecraft/core)</MinecraftLogo>
+#### <MinecraftLogo>[Установка кастомного ядра](/ru/games/minecraft/software)</MinecraftLogo>
 
 #### <MinecraftLogo>[Установка плагинов](/ru/games/minecraft/plugins)</MinecraftLogo>
