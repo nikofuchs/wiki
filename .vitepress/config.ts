@@ -483,6 +483,9 @@ export default defineConfig({
       '/ru/vps/budget-limitations',
       '/vps/promo-limitations',
       '/ru/vps/promo-limitations',
+      '/vps/',
+      '/vpn/',
+      '/games/'
     ],
   },
   lastUpdated: true,
