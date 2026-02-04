@@ -17,43 +17,46 @@ head:
 
 # <MinecraftLogo>Installing Plugins</MinecraftLogo>
 
-Quick guide for installing plugins on a Minecraft server.
+A quick guide to installing plugins on your Minecraft server.
 
 ***
 
 ::: tip
-Plugins only work with corresponding cores, such as [PaperMC](https://papermc.io/), [CraftBukkit](https://getbukkit.org/), [Mohist](https://mohistmc.com/), and [Fabric](https://fabricmc.net/). For complete installation instructions, visit our [guide](/games/minecraft/core)
+Plugins require compatible server software (core) to function, such as [PaperMC](https://papermc.io/), [CraftBukkit](https://getbukkit.org/), [Mohist](https://mohistmc.com/), or [Fabric](https://fabricmc.net/). For instructions on installing these server types, see our [custom server software guide](/games/minecraft/software).
 :::
 
-Each plugin is created with a specific core in mind. For example, a plugin for PaperMC won't work with CraftBukkit, and vice versa. Therefore, before installation, make sure that the plugin you're going to install is compatible with your specific core.
+Each plugin is designed for a particular Minecraft core. For instance, Paper plugins will not work with CraftBukkit, and the reverse is also true. Always check that any plugin you download is compatible with your server’s core and game version.
 
-To avoid errors and non-working plugins, use official resources for specific plugins, for example, for PaperMC it's [Hangar](https://hangar.papermc.io/), for CraftBukkit - [Bukkit](https://dev.bukkit.org/bukkit-plugins), Spigot - [Spigot resources](https://www.spigotmc.org/resources/categories/spigot.4/). We can also recommend [Modrinth](https://modrinth.com/plugins), which contains a large number of plugins for all popular cores.
+To ensure stability and avoid broken or malicious plugins, download plugins from official or trusted sources:
+- [Hangar (PaperMC)](https://hangar.papermc.io/)
+- [Bukkit Plugins (CraftBukkit)](https://dev.bukkit.org/bukkit-plugins)
+- [Spigot Resources (Spigot)](https://www.spigotmc.org/resources/categories/spigot.4/)
+- [Modrinth (multi-platform)](https://modrinth.com/plugins)
 
 ### Downloading Plugins
 
-In this guide, we'll use [Modrinth](https://modrinth.com/plugins) as an example, as we believe it's the most convenient.
-Let's start with the filters.
+In this tutorial, we'll use [Modrinth](https://modrinth.com/plugins) as an example because of its simplicity and the wide range of plugins available.
 
-The main filters are the core (platform) and server version.
+Filtering by server type (platform/core) and game version is highly recommended to ensure compatibility.
 
 ![plugin filters](/images/games/minecraft/plugins/filters.png){data-zoomable}
 
-After you've selected a plugin and gone to its page, click on the "Download" button.
+Once you've found your desired plugin, open its page and click the "Download" button.
 
 ![plugin download button](/images/games/minecraft/plugins/plugin-download-button.png){data-zoomable}
 
-Next, a window will appear where you'll need to select the version and core (platform).
+A popup will prompt you to pick the version and core (platform). Choose the ones that match your server setup.
 
 ![plugin download popup](/images/games/minecraft/plugins/plugin-download-popup.png){data-zoomable}
 
 ### Installing the Plugin on the Server
 
-After downloading the plugin, go to the server file management, then to the `plugins` folder, and upload the plugin file(s) there. In our case, it's `worldedit-bukkit-7.3.6.jar`.
+After downloading the plugin, access your server's file manager and open the `plugins` directory. Upload the downloaded `.jar` file here (for example, `worldedit-bukkit-7.3.6.jar`).
 
 ![plugin upload to the server](/images/games/minecraft/plugins/file-upload.png){data-zoomable}
 
-### Checking Plugin Functionality
+### Testing That the Plugin Works
 
-After installing the server, you need to start the server to ensure it's working properly. After that, just type the `plugins` command in the console. If the newly installed plugin is in the list - that means the installation was successful!
+Restart your Minecraft server to load the new plugin. Once the server is running, type the `plugins` command in the server console. If you see your newly added plugin listed, the installation was successful!
 
 ![plugin working](/images/games/minecraft/plugins/plugin-working.png){data-zoomable}
