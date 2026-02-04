@@ -4,3 +4,4 @@ dist
 .temp
 cs2
 .DS_Store
+.pnpm-store
