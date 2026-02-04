@@ -22,7 +22,6 @@ h6,
   -moz-user-select: auto !important;
   -ms-user-select: auto !important;
   user-select: auto !important;
-  color: var(--vp-c-text-1) !important;
 }
 
 .vp-doc h1:after,

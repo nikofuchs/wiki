@@ -47,7 +47,7 @@ export default defineConfig({
     ['link', { rel: 'shortcut icon', href: '/assets/favicons/favicon.ico' }],
     ['meta', { name: 'msapplication-TileColor', content: '#3a0839' }],
     ['meta', { name: 'msapplication-config', content: '/assets/favicons/browserconfig.xml' }],
-    ['meta', { name: 'theme-color', content: '#ffffff' }],
+    ['meta', { name: 'theme-color', content: '#7528ef' }],
     ['link', { rel: 'stylesheet', href: '/custom.css' }],
     [
       'link',
