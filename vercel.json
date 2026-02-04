@@ -40,6 +40,16 @@
       "source": "/personal-area/:path*",
       "destination": "/client-area/:path*",
       "permanent": true
+    },
+    {
+      "source": "/games/minecraft/core",
+      "destination": "/games/minecraft/software",
+      "permanent": true
+    },
+    {
+      "source": "/ru/games/minecraft/core",
+      "destination": "/ru/games/minecraft/software",
+      "permanent": true
     }
   ],
   "cleanUrls": true
