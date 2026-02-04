@@ -146,6 +146,7 @@ function reloadPage(): void {
   height: 400px;
   top: -100px;
   right: -100px;
+  z-index: -1 !important;
 }
 
 .circle-2 {
@@ -154,6 +155,7 @@ function reloadPage(): void {
   height: 300px;
   bottom: -50px;
   left: -50px;
+  z-index: -1 !important;
 }
 
 .circle-3 {
@@ -162,6 +164,7 @@ function reloadPage(): void {
   height: 200px;
   top: 40%;
   right: -50px;
+  z-index: -1 !important;
 }
 
 .dark .circle-1 {
@@ -174,6 +177,11 @@ function reloadPage(): void {
 
 .dark .circle-3 {
   opacity: 0.15;
+}
+
+body:has(.VPDoc) .background-decoration {
+  opacity: 0;
+  pointer-events: none;
 }
 
 .page-divider {
