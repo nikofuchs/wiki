@@ -1,6 +1,6 @@
 
 
-# <GmodLogo>Changing Map at Startup</GmodLogo>
+# <GmodLogo>Changing The Startup Map</GmodLogo>
 
 A quick guide to changing the default map on your Garry's Mod game server.
 
@@ -15,6 +15,12 @@ Enter the full name of the map, for example `gm_construct`.
 ![map in startup parameters](/images/games/gmod/map.png){data-zoomable}
 
 Done! Now the server will load with this map every time it starts.
+
+## Listing available maps on the server
+
+If you are unsure which maps you have installed on the server, you can easily find out the full list (including Workshop addons) by using the `maps *` command through the Console.
+
+![map list through a console command](/images/games/gmod/map_list.png){data-zoomable}
 
 ## Installing Maps from Steam Workshop
 

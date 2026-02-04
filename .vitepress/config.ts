@@ -247,7 +247,7 @@ export default defineConfig({
                   items: [
                     { text: 'Changing Server Name', link: '/games/gmod/server-name' },
                     { text: 'Configuring server.cfg', link: '/games/gmod/server-cfg' },
-                    { text: 'Changing Map at Startup', link: '/games/gmod/map' },
+                    { text: 'Changing The Startup Map', link: '/games/gmod/map' },
                     { text: 'Installing Workshop Collection', link: '/games/gmod/workshop' },
                     { text: 'Installing and Configuring DarkRP', link: '/games/gmod/darkrp' },
                     { text: 'Installing and Configuring ULX', link: '/games/gmod/ulx' },

@@ -6,7 +6,7 @@
 
 #### <GmodLogo>[Configuring server.cfg](/games/gmod/server-cfg)</GmodLogo>
 
-#### <GmodLogo>[Changing Map at Startup](/games/gmod/map)</GmodLogo>
+#### <GmodLogo>[Changing The Startup Map](/games/gmod/map)</GmodLogo>
 
 #### <GmodLogo>[Installing Your Collection](/games/gmod/workshop)</GmodLogo>
 
