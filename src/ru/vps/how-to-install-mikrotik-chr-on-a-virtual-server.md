@@ -50,10 +50,10 @@ MikroTik Cloud Hosted Router (CHR) - это специализированная
 - Инструкции по подключению SSH доступны в нашем руководстве [Как подключиться к серверу (Linux)](/vps/how-to-connect-through-ssh)
 
 ### 2. Загрузка образа CHR
-- Посетите [официальную страницу загрузки MikroTik](https://mikrotik.com/download)
-- Скачайте версию **Raw disk image** CHR (в примере мы используем версию 7.18.2)
+- Посетите [официальную страницу загрузки MikroTik](https://mikrotik.com/download/chr)
+- Скачайте версию **Raw disk image** CHR (в примере мы используем версию 7.20.8)
 ![Изображение, показывающее, какую версию MikroTik CHR использовать для виртуального сервера](/images/vps/mikrotik-chr/select-mikrotik-chr-version.png){data-zoomable}
-- Щелкните правой кнопкой мыши по иконке загрузки и скопируйте ссылку (например, https://download.mikrotik.com/routeros/7.18.2/chr-7.18.2.img.zip)
+- Щелкните правой кнопкой мыши по иконке загрузки и скопируйте ссылку (например, https://download.mikrotik.com/routeros/7.20.8/chr-7.20.8.img.zip)
 - Загрузите образ на ваш виртуальный сервер:
 ```bash
 cd /tmp
@@ -63,7 +63,7 @@ wget <ССЫЛКА> -O chr.img.zip
 Например:
 ```bash
 cd /tmp
-wget https://download.mikrotik.com/routeros/7.18.2/chr-7.18.2.img.zip -O chr.img.zip
+wget https://download.mikrotik.com/routeros/7.20.8/chr-7.20.8.img.zip -O chr.img.zip
 ```
 
 ![Изображение, показывающее успешную загрузку образа MikroTik CHR на виртуальный сервер](/images/vps/mikrotik-chr/successful-download-mikrotik-chr.png){data-zoomable}
@@ -92,7 +92,9 @@ echo u > /proc/sysrq-trigger
 
 Запишите образ на виртуальный диск:
 ```bash
-dd if=chr.img of=/dev/vda bs=4M oflag=sync
+dd if=chr.img of=/dev/vda bs=4M oflag=direct
+echo s > /proc/sysrq-trigger
+read -t 10 -u 1
 ```
 
 Перезагрузите сервер для инициализации CHR:

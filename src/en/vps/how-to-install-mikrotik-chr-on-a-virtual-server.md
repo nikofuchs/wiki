@@ -50,10 +50,10 @@ This guide demonstrates the manual installation process using a DE-BUDGET-1 virt
 - For SSH connection guidance, refer to our [How to connect to the server (Linux)](/vps/how-to-connect-through-ssh) guide
 
 ### 2. Downloading CHR Image
-- Visit the [official MikroTik download page](https://mikrotik.com/download)
-- Download the **Raw disk image** version of CHR (we'll use version 7.18.2 in this example)
+- Visit the [official MikroTik download page](https://mikrotik.com/download/chr)
+- Download the **Raw disk image** version of CHR (we'll use version 7.20.8 in this example)
 ![An image showing which version of MikroTik CHR to use for a virtual server](/images/vps/mikrotik-chr/select-mikrotik-chr-version.png){data-zoomable}
-- Right-click the download icon and copy the download link (e.g., https://download.mikrotik.com/routeros/7.18.2/chr-7.18.2.img.zip)
+- Right-click the download icon and copy the download link (e.g., https://download.mikrotik.com/routeros/7.20.8/chr-7.20.8.img.zip)
 - Download the image to your virtual server:
 ```bash
 cd /tmp
@@ -63,7 +63,7 @@ wget <LINK> -O chr.img.zip
 For example:
 ```bash
 cd /tmp
-wget https://download.mikrotik.com/routeros/7.18.2/chr-7.18.2.img.zip -O chr.img.zip
+wget https://download.mikrotik.com/routeros/7.20.8/chr-7.20.8.img.zip -O chr.img.zip
 ```
 
 ![An image showing a successful download of a MikroTik CHR image onto a virtual server](/images/vps/mikrotik-chr/successful-download-mikrotik-chr.png){data-zoomable}
@@ -92,7 +92,9 @@ echo u > /proc/sysrq-trigger
 
 Write the image to the virtual disk:
 ```bash
-dd if=chr.img of=/dev/vda bs=4M oflag=sync
+dd if=chr.img of=/dev/vda bs=4M oflag=direct
+echo s > /proc/sysrq-trigger
+read -t 10 -u 1
 ```
 
 Reboot the server to initialize CHR:
