@@ -153,7 +153,7 @@ export default defineConfig({
           next: 'Next page',
         },
         editLink: {
-          pattern: 'https://github.com/senko-digital/wiki/edit/master/:path',
+          pattern: 'https://github.com/senko-digital/wiki/edit/master/src/:path',
           text: 'Edit this article on GitHub',
         },
         sidebar: {
@@ -334,7 +334,7 @@ export default defineConfig({
           next: 'Следующая статья',
         },
         editLink: {
-          pattern: 'https://github.com/senko-digital/wiki/edit/master/:path',
+          pattern: 'https://github.com/senko-digital/wiki/edit/master/src/:path',
           text: 'Редактировать статью на GitHub',
         },
         sidebar: {
